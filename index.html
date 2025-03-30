@@ -1,35 +1,42 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakery</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 </head>
+
 <body>
     <header>
-        <video src=""></video>
-        <div class="logo">BAKERY</div>
-        <nav>
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Ассортимент</a></li>
-                <li><a href="#">Акции</a></li>
-                <li><a href="#">Где купить</a></li>
-            </ul>
-        </nav>
+        <div class="video-background">
+            <video autoplay muted loop id="myVideo">
+                <source src="images/Рекламный_ролик_для_кондитерской_пекарни_Ватрушка_длинная_версия.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+        <div class="content">
+            <nav>
+                <ul>
+                    <li class="nav"><a href="#">Главная</a></li>
+                    <li class="nav"><a href="#">О нас</a></li>
+                    <li class="nav"><a href="#">Ассортимент</a></li>
+                    <li class="nav"><a href="#">Акции</a></li>
+                    <li class="nav"><a href="#">Где купить</a></li>
+                </ul>
+            </nav>
+            <div class="">BAKERY</div>
+        </div>
     </header>
-    <section class="hero">
-        <h1>Bakery</h1>
-    </section>
     <section class="welcome">
         <img src="images/лого.svg" alt="Пекарня">
-        <div class="text">
+
+<div class="text">
             <h2>Добро пожаловать в "Bakery" - место, где живёт вкус!</h2>
             <p>Свежий хлеб с хрустящей корочкой, ароматная выпечка...</p>
         </div>
@@ -64,8 +71,8 @@
     </section>
     <footer>
         <p>&copy; Bakery 2024</p>
-    </footer>
-    <!-- <script>
+    </footer> 
+<script>
         $(document).ready(function(){
             $('.review-slider').slick({
                 autoplay: true,
@@ -74,7 +81,167 @@
                 arrows: false
             });
         });
-    </script> -->
-    <script src="js/main.js"></script>
+    </script>
+<script src="js/main.js"></script>
 </body>
-</html>
+
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content=width=device-width, initial-scale=1.0>
+    <title>Bakery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <div class="container"></div>
+    <header>
+
+        <! - - Navigation -->
+            
+                <nav class=nav>
+                    <img src=images/лого.svg alt=Bakery Logo class=nav-logo>
+                    <div class=nav-menu>
+                        <a href=# class=nav-link>Главная</a>
+                        <a href=# class=nav-link>О нас</a>
+                        <a href=# class=nav-link>Ассортимент</a>
+                        <a href=# class=nav-link>Акции</a>
+                        <a href=# class=nav-link>Где купить</a>
+                    </div>
+                </nav>
+            </div>
+            <! - - Hero Section -->
+
+                <section class=hero>
+                    <h1>Bakery</h1>
+                </section>
+    </header>
+
+    <! - - Welcome Section -->
+        <div class="container">
+            <section class=welcome>
+                <img src=images/image1.png alt=Bakery Interior>
+                <div>
+                    <h2>Добро пожаловать в Bakery – место, где живёт вкус!</h2>
+                    <p class="welcome__description">Свежий хлеб с хрустящей корочкой, ароматные круассаны, воздушные
+                        эклеры
+                        и десерты,
+                        созданные с любовью – всё это ждёт вас в “Bakery”. Мы печём каждый день, используя
+                        только натуральные ингредиенты и проверенные рецепты, чтобы порадовать вас настоящим
+                        вкусом домашней выпечки.
+                        Загляните к нам за чашечкой ароматного кофе и свежей выпечкой – почувствуйте уют, тепло
+                        и заботу в каждом кусочке.</p>
+                    <a href=# class=link>Больше о нас</a>
+                </div>
+            </section>
+        </div>
+
+        <! - - Products Section -->
+            <div class="container">
+                <section class=products>
+                    <h3 class="product__title">Ассортимент</h3>
+                    <div class=product-tabs>
+                        <a href=# class="product__link-active">Выпечка</a>
+                        <a href=# class=link>Пирожные и кексы</a>
+                        <a href=# class=link>Торты</a>
+                    </div>
+                    <div class="container__card">
+                        <div class="product">
+                            <img src="images/круассан.png" alt="Круассан Миндальный">
+                            <h3 class="product__subtitle">Миндальный круассан с марципаном</h3>
+                            <p>Хрустящее слоеное тесто, марципановый крем с темным ромом, лепестки миндаля, сахарная
+                                пудра
+                            </p>
+                            <button class="btn">Посмотреть</button>
+                            <span class="price">240₽</span>
+                        </div>
+                        <div class="product">
+                            <img src="images/круассан2.png" alt="Круассан с сыром">
+                            <h3 class="product__subtitle">Круассан с сыром и соусом морне</h3>
+                            <p>Хрустящее слоеное тесто, нежный сыр, соус Морне</p>
+                            <button class="btn">Посмотреть</button>
+                            <span class="price">180₽</span>
+                        </div>
+                        <div class="product">
+                            <img src="images/вензель.png" alt="Вензель с брусникой">
+                            <h3 class="product__subtitle">Вензель с брусникой и яблоком</h3>
+                            <p>Дрожжевое тесто, заварной крем, брусника, кусочки яблока</p>
+                            <button class="btn">Посмотреть</button>
+                            <span class="price">290₽</span>
+                        </div>
+                        <div class="button-wrapper">
+                            <a href="#" class="circle-button">
+                                <span class="arrow">ᐳ</span>
+                            </a>
+                            <p class="button-text">Вся выпечка</p>
+                        </div>
+                    </div>
+                    </section>
+                </div>
+                </section>
+
+                <! - - Fresh Products -->
+                    <div class="container">
+                        <section class=fresh-products>
+                            <div class="fresh__card">
+                                <h3 class="fresh__title">Свежая продукция</h3>
+                                <p>Мы всегда следим за тем, чтобы качество нашей продукции было на высоте.</p>
+                                <p>Мы предлагаем только свежую и качественную продукцию, которую любят взрослые и дети.
+                                    Пекарня
+                                    “Bakery” — это аромат свежеиспеченного хлеба, домашняя пышная выпечка, хрустящие
+                                    багеты и
+                                    вкуснейшие пироги, пекарь в белоснежном колпаке и довольные счастливые покупатели.Мы
+                                    открываемся рано утром и работаем до позднего вечера для того, чтобы Вы могли
+                                    приобрести
+                                    только свежий хлеб и выпечку.</p>
+                                <p>Здесь, в нашей пекарне, вы всегда найдете что-то по-настоящему особенное — от
+                                    хрустящих
+                                    багетов до мягких и воздушных круассанов, от классических пирогов до оригинальных
+                                    сладких
+                                    угощений. Мы уверены, что каждый кусочек нашей продукции сделает ваш день немного
+                                    вкуснее!
+                                    Заглядывайте к нам каждый день, ведь у нас всегда свежее и ароматное!</p>
+                            </div><img src=images/image2.png alt=Bread>
+                        </section>
+                    </div>
+                    <! - - Reviews -->
+                        <div class="container">
+                            <section class=reviews>
+                                <h3>Отзывы</h3>
+                                <div class=review-grid>
+                                    <! - - Review cards -->
+                                </div>
+                            </section>
+                        </div>
+
+                        <! - - Footer -->
+                            <div class="container">
+
+                                <footer>
+                                    <div><img src=images/логочб.svg alt=Bakery Logo>
+                                        <! - - Social media icons -->
+                                    </div>
+                                    <div>
+                                        <! - - Contact information -->
+                                    </div>
+                                </footer>
+                            </div>
+
+</body>
+
+</html> </code>
