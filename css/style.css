@@ -50,8 +50,10 @@ body {
     margin: 0 auto;
 }
 
-img{
-    object-fit: cover;
+img-fresh{
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
     /* width: 100%; */
 }
 
@@ -61,7 +63,7 @@ img{
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 1rem;
+    padding:0 1rem;
     background: white;
     display: flex;
     justify-content: space-between;
@@ -123,6 +125,14 @@ img{
     width: 100%;
     border-radius: 10px;
 }
+
+/* .welcome img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    object-fit: cover; 
+    border-radius: 10px;
+} */
 
 .welcome__description {
     max-width: 660;
@@ -287,5 +297,21 @@ img{
 }
 
 
+footer {
+    background: #FFA768;
+    padding: 1rem 2rem;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+/* .footer__logo{
+    margin: 5px 80px 5px 35px;
+} */
 
 /* https://sitehere.ru/kak-sdelat-video-fonom-sajta-videostokiэ' */
