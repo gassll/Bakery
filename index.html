@@ -1,90 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bakery</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-</head>
-
-<body>
-    <header>
-        </div>
-        <div class="content">
-            <nav>
-                <ul>
-                    <li class="nav"><a href="#">Главная</a></li>
-                    <li class="nav"><a href="#">О нас</a></li>
-                    <li class="nav"><a href="#">Ассортимент</a></li>
-                    <li class="nav"><a href="#">Акции</a></li>
-                    <li class="nav"><a href="#">Где купить</a></li>
-                </ul>
-            </nav>
-            <div class="">BAKERY</div>
-        </div>
-    </header>
-    <section class="welcome">
-        <img src="images/лого.svg" alt="Пекарня">
-
-<div class="text">
-            <h2>Добро пожаловать в "Bakery" - место, где живёт вкус!</h2>
-            <p>Свежий хлеб с хрустящей корочкой, ароматная выпечка...</p>
-        </div>
-    </section>
-    <section class="assortment">
-        <h2>Ассортимент</h2>
-        <div class="products">
-            <div class="product">
-                <img src="images/круассан.png" alt="Круассан с марципаном">
-                <p>Миндальный круассан с марципаном</p>
-                <span>240₽</span>
-            </div>
-            <div class="product">
-                <img src="images/круассан2.png" alt="Круассан с сыром">
-                <p>Круассан с сыром и соусом морне</p>
-                <span>180₽</span>
-            </div>
-            <div class="product">
-                <img src="images/вензель.png" alt="Венское с брусникой">
-                <p>Венское с брусникой и яблоком</p>
-                <span>220₽</span>
-            </div>
-        </div>
-    </section>
-    <section class="reviews">
-        <h2>Отзывы</h2>
-        <div class="review-slider">
-            <div class="review">★★★★★ Отличная выпечка! Каждое утро беру здесь круассаны.</div>
-            <div class="review">★★★★★ Заведение с великолепным сервисом и вкусной продукцией!</div>
-            <div class="review">★★★★★ Лучшее место для любителей свежего хлеба!</div>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; Bakery 2024</p>
-    </footer> 
-<script>
-        $(document).ready(function(){
-            $('.review-slider').slick({
-                autoplay: true,
-                autoplaySpeed: 3000,
-                dots: true,
-                arrows: false
-            });
-        });
-    </script>
-<script src="js/main.js"></script>
-</body>
-
-</html> -->
-
-
-
-
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -103,35 +16,32 @@
     <link rel="stylesheet" href="css/_reset.css">
     <link rel="stylesheet" href="css/components/_footer.css">
     <link rel="stylesheet" href="css/components/_header.css">
-
     <!-- <link rel="stylesheet" href="css/vendor/_fonts.css"> -->
-
 </head>
 
+
+<header>
+    <div class="container">
+        <!-- Navigation  -->
+        <nav class=nav>
+            <img src=images/лого.svg alt=Bakery Logo class=nav-logo>
+            <div class=nav-menu>
+                <a href='index.html' class=nav-link>Главная</a>
+                <a href='about.html' class=nav-link>О нас</a>
+                <a href='assortment.html' class=nav-link>Ассортимент</a>
+                <a href='stocks.html' class=nav-link>Акции</a>
+                <a href='buy.html' class=nav-link>Где купить</a>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section class=hero>
+            <h1>Bakery</h1>
+        </section>
+    </div>
+</header>
+<!-- Welcome Section  -->
+
 <body>
-
-    <header>
-        <div class="container">
-
-            <!-- Navigation  -->
-            <nav class=nav>
-                <img src=images/лого.svg alt=Bakery Logo class=nav-logo>
-                <div class=nav-menu>
-                    <a href=# class=nav-link>Главная</a>
-                    <a href='About.html' class=nav-link>О нас</a>
-                    <a href=# class=nav-link>Ассортимент</a>
-                    <a href=# class=nav-link>Акции</a>
-                    <a href=# class=nav-link>Где купить</a>
-                </div>
-            </nav>
-            <!-- Hero Section -->
-            <section class=hero>
-                <h1>Bakery</h1>
-            </section>
-        </div>
-    </header>
-
-    <!-- Welcome Section  -->
     <div class="container">
         <section class=welcome>
             <img src=images/image1.png alt=Bakery Interior>
@@ -149,7 +59,6 @@
             </div>
         </section>
     </div>
-
     <!-- <! - - Products Section -->
     <div class="container">
         <section class=products>
@@ -161,7 +70,7 @@
             </div>
             <div class="container__card">
                 <div class="product">
-                    <img src="images/круассан.png" alt="Круассан Миндальный">
+                    <img src="images/croissant.png" alt="Круассан Миндальный">
                     <h3 class="product__subtitle">Миндальный круассан с марципаном</h3>
                     <p>Хрустящее слоеное тесто, марципановый крем с темным ромом, лепестки миндаля, сахарная
                         пудра
@@ -170,14 +79,14 @@
                     <span class="price">240₽</span>
                 </div>
                 <div class="product">
-                    <img src="images/круассан2.png" alt="Круассан с сыром">
+                    <img src="images/croissant-cheese.png" alt="Круассан с сыром">
                     <h3 class="product__subtitle">Круассан с сыром и соусом морне</h3>
                     <p>Хрустящее слоеное тесто, нежный сыр, соус Морне</p>
                     <button class="btn">Посмотреть</button>
                     <span class="price">180₽</span>
                 </div>
                 <div class="product">
-                    <img src="images/вензель.png" alt="Вензель с брусникой">
+                    <img src="images/venzel.png" alt="Вензель с брусникой">
                     <h3 class="product__subtitle">Вензель с брусникой и яблоком</h3>
                     <p>Дрожжевое тесто, заварной крем, брусника, кусочки яблока</p>
                     <button class="btn">Посмотреть</button>
@@ -193,7 +102,6 @@
         </section>
     </div>
     </section>
-
     <!-- <! - - Fresh Products -->
     <div class="container">
         <section class=fresh-products>
@@ -261,21 +169,21 @@
                     <p>Уют и вкус в каждой деталиЗаходя сюда, чувствуешь себя как дома. Вкуснейшая выпечка, всегда
                         свежая, а аромат
                         свежеиспечённого хлеба невозможно забыть. Советую пробовать их кексы — просто тают во рту!</p>
-                <div class="review__data">
-                    <p class="review__name">Ирина</p>
-                    <P>2 апреля 2024</P>
-                </div>
+                    <div class="review__data">
+                        <p class="review__name">Ирина</p>
+                        <P>2 апреля 2024</P>
                     </div>
+                </div>
                 <div class="review_card">
                     ★★★★★
                     <p>Невероятно вкусный кофе и выпечкаОбожаю здесь брать утренний кофе с какой-нибудь свежей
                         выпечкой. Особенно нравится их
                         круассан с миндалем — идеальный завтрак! Персонал очень вежливый и всегда с улыбкой.</p>
-                <div class="review__data">
-                    <p class="review__name">Светлана</p>
-                    <P>8 ноября 2024</P>
-                </div>
+                    <div class="review__data">
+                        <p class="review__name">Светлана</p>
+                        <P>8 ноября 2024</P>
                     </div>
+                </div>
                 <div class="review_card">
                     ★★★★★
                     <p>Лучшие пироги в городе!Эта пекарня — настоящее открытие для меня! Пироги с разными начинками
@@ -290,43 +198,44 @@
             </div>
         </section>
     </div>
-
-    <!-- <! - - Footer  -->
-
-    <footer class="footer">
-        <div>
-            <img class="footer__logo" src=images/logo.png alt=Bakery Logo>
-        </div>
-        <div class="footer__social-icons">
-            <img class="vk" src="images/icon-vk.png" width="45" height="45" alt="vk">
-            <img class="tg" src="images/icon-tg.png" width="45" height="45" alt="tg">
-            <ul class="footer__contact">
-                <li class="footer__contact-items">8(800)564-37-37</li>
-                <li class="footer__contact-items">info@bakery.ru</li>
-                <li class="footer__contact-items">ООО “Bakery” 2020-2025</li>
-            </ul>
-        </div>
-        </div>
-        <div>
-            <ul class="footer__link">
-                <li class="footer__link-items">
-                    <a href="https://loqo59.ru/files/URBAN_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8.pdf">Политика
-                        конфиденциальности</a>
-                </li>
-                <li class="footer__link-items">
-                    <a href="https://turandot-palace.ru/soglashenie/polzovatelskoe-soglashenie-17-11-15.pdf">Пользовательское
-                        соглашение</a>
-                </li>
-                <li class="footer__link-items">
-                    <a href="https://nok-nark.ru/upload/iblock/22d/qqm3lifrkfh0x18fycms67433v4bruw3/1.%20%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.pdf">
-                        Политика обработки персональных данных</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
 </body>
+
+<!-- <! - - Footer  -->
+<footer class="footer">
+    <div>
+        <img class="footer__logo" src=images/logo.png alt=Bakery Logo>
+    </div>
+    <div class="footer__social-icons">
+        <img class="vk" src="images/icon-vk.png" width="45" height="45" alt="vk">
+        <img class="tg" src="images/icon-tg.png" width="45" height="45" alt="tg">
+        <ul class="footer__contact">
+            <li class="footer__contact-items">8(800)564-37-37</li>
+            <li class="footer__contact-items">info@bakery.ru</li>
+            <li class="footer__contact-items">ООО “Bakery” 2020-2025</li>
+        </ul>
+    </div>
+    </div>
+    <div>
+        <ul class="footer__link">
+            <li class="footer__link-items">
+                <a
+                    href="https://loqo59.ru/files/URBAN_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8.pdf">Политика
+                    конфиденциальности</a>
+            </li>
+            <li class="footer__link-items">
+                <a href="https://turandot-palace.ru/soglashenie/polzovatelskoe-soglashenie-17-11-15.pdf">Пользовательское
+                    соглашение</a>
+            </li>
+            <li class="footer__link-items">
+                <a
+                    href="https://nok-nark.ru/upload/iblock/22d/qqm3lifrkfh0x18fycms67433v4bruw3/1.%20%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.pdf">
+                    Политика обработки персональных данных</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 
 </html>
