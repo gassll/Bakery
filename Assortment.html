@@ -1,93 +1,77 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset=UTF-8>
-    <meta name=viewport content=width=device-width, initial-scale=1.0>
-    <title>Bakery</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/_reset.css">
-    <link rel="stylesheet" href="css/assortment.css">
-    <link rel="stylesheet" href="css/components/_footer.css">
-    <link rel="stylesheet" href="css/components/_header.css">
-    <!-- <link rel="stylesheet" href="css/vendor/_fonts.css"> -->
-</head>
-
-
-<header>
-    <div class="container">
-        <!-- Navigation  -->
-        <nav class=nav>
-            <img src=images/лого.svg alt=Bakery Logo class=nav-logo>
-            <div class=nav-menu>
-                <a href='index.html' class=nav-link>Главная</a>
-                <a href='about.html' class=nav-link>О нас</a>
-                <a href='assortment.html' class=nav-link>Ассортимент</a>
-                <a href='stocks.html' class=nav-link>Акции</a>
-                <a href='buy.html' class=nav-link>Где купить</a>
-            </div>
-        </nav>
-    </div>
-</header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name=viewport content=width=device-width, initial-scale=1.0>
+        <title>Bakery</title>
+    
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        
+    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/vendor/_reset.css">
+        <link rel="stylesheet" href="css/vendor/_fonts.css">
+        <link rel="stylesheet" href="css/components/_footer.css">
+        <link rel="stylesheet" href="css/components/_header.css">
+    </head>
 
 <body>
+    <header>
+        <div class="container">
+            <!-- Navigation  -->
+            <nav class="nav">
+                <img src="images/лого.svg" alt="Bakery Logo" class="nav-logo">
+                <div class=nav-menu>
+                    <a href='index.html' class="nav-link">Главная</a>
+                    <a href='about.html' class="nav-link">О нас</a>
+                    <a href='assortment.html' class="nav-link">Ассортимент</a>
+                    <a href='stocks.html' class="nav-link">Акции</a>
+                    <a href='buy.html' class="nav-link">Где купить</a>
+                </div>
+            </nav>
+        </div>
+    </header>
     <div class="container">
-    <h1 class="assortment__title">Ассортимент</h1>
-    <div class="assortment__menu">
-        <a href=# class="product__link-active">Выпечка</a>
-        <a href=# class="link">Пирожные и кексы</a>
-        <a href=# class="link">Торты</a>
-    </div>
-</div>
-
-<div class="container">
-    <div class="assortment__card">
-        <div class="assortment__card-item">
-            <img src="" alt="">
+        <h1 class="assortment__title">Ассортимент</h1>
+        <div class="assortment__menu">
+            <a href="#" class="product__link-active">Выпечка</a>
+            <a href=# class="link">Пирожные и кексы</a>
+            <a href=# class="link">Торты</a>
         </div>
     </div>
-</div>
+    <div class="container">
+        <div class="assortment__card">
+            <div class="assortment__card-item">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 
-    <footer class="footer">
+
+<footer class="footer">
+    <div class="footer__container">
         <div>
-            <img class="footer__logo" src=images/logo.png alt=Bakery Logo>
+            <img class="footer__logo" src="images/logo.png" alt="Bakery Logo">
         </div>
         <div class="footer__social-icons">
-            <img class="vk" src="images/icon-vk.png" width="45" height="45" alt="vk">
-            <img class="tg" src="images/icon-tg.png" width="45" height="45" alt="tg">
+            <img class="footer__social-link" src="images/icon-vk.png" width="45" height="45" alt="vk">
+            <img class="footer__social-link" src="images/icon-tg.png" width="45" height="45" alt="tg">
             <ul class="footer__contact">
                 <li class="footer__contact-items">8(800)564-37-37</li>
                 <li class="footer__contact-items">info@bakery.ru</li>
                 <li class="footer__contact-items">ООО “Bakery” 2020-2025</li>
             </ul>
         </div>
-        </div>
-        <div>
+        <div class="footer__links-right">
             <ul class="footer__link">
-                <li class="footer__link-items">
-                    <a
-                        href="https://loqo59.ru/files/URBAN_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8.pdf">Политика
-                        конфиденциальности</a>
-                </li>
-                <li class="footer__link-items">
-                    <a href="https://turandot-palace.ru/soglashenie/polzovatelskoe-soglashenie-17-11-15.pdf">Пользовательское
-                        соглашение</a>
-                </li>
-                <li class="footer__link-items">
-                    <a
-                        href="https://nok-nark.ru/upload/iblock/22d/qqm3lifrkfh0x18fycms67433v4bruw3/1.%20%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.pdf">
-                        Политика обработки персональных данных</a>
-                </li>
+                <li class="footer__link-items"><a href="#">Политика конфиденциальности</a></li>
+                <li class="footer__link-items"><a href="#">Пользовательское соглашение</a></li>
+                <li class="footer__link-items"><a href="#">Политика обработки данных</a></li>
             </ul>
         </div>
-    </footer>
+    </div>
+</footer>
 
 </html>

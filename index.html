@@ -2,49 +2,45 @@
 <html lang="ru">
 
 <head>
-    <meta charset=UTF-8>
+    <meta charset="UTF-8">
     <meta name=viewport content=width=device-width, initial-scale=1.0>
     <title>Bakery</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/_reset.css">
+    <link rel="stylesheet" href="css/vendor/_reset.css">
+    <link rel="stylesheet" href="css/vendor/_fonts.css">
     <link rel="stylesheet" href="css/components/_footer.css">
     <link rel="stylesheet" href="css/components/_header.css">
-    <!-- <link rel="stylesheet" href="css/vendor/_fonts.css"> -->
 </head>
 
-
-<header>
-    <div class="container">
-        <!-- Navigation  -->
-        <nav class=nav>
-            <img src=images/лого.svg alt=Bakery Logo class=nav-logo>
-            <div class=nav-menu>
-                <a href='index.html' class=nav-link>Главная</a>
-                <a href='about.html' class=nav-link>О нас</a>
-                <a href='assortment.html' class=nav-link>Ассортимент</a>
-                <a href='stocks.html' class=nav-link>Акции</a>
-                <a href='buy.html' class=nav-link>Где купить</a>
-            </div>
-        </nav>
-        <!-- Hero Section -->
-        <section class=hero>
-            <h1>Bakery</h1>
-        </section>
-    </div>
-</header>
-<!-- Welcome Section  -->
-
 <body>
+    <header>
+        <div class="container">
+            <!-- Navigation  -->
+            <nav class="nav">
+                <img src="images/лого.svg" alt="Bakery Logo" class="nav-logo">
+                <div class=nav-menu>
+                    <a href='index.html' class="nav-link">Главная</a>
+                    <a href='about.html' class="nav-link">О нас</a>
+                    <a href='assortment.html' class="nav-link">Ассортимент</a>
+                    <a href='stocks.html' class="nav-link">Акции</a>
+                    <a href='buy.html' class="nav-link">Где купить</a>
+                </div>
+            </nav>
+            <!-- Hero Section -->
+            <section class="hero">
+                <h1 class="hero-title">Bakery</h1>
+            </section>
+        </div>
+    </header>
+    <!-- Welcome Section  -->
     <div class="container">
-        <section class=welcome>
-            <img src=images/image1.png alt=Bakery Interior>
+        <section class="welcome">
+            <img src="images/image1.png" alt="Bakery Interior">
             <div>
                 <h2>Добро пожаловать в Bakery – место, где живёт вкус!</h2>
                 <p class="welcome__description">Свежий хлеб с хрустящей корочкой, ароматные круассаны, воздушные
@@ -52,21 +48,21 @@
                     и десерты,
                     созданные с любовью – всё это ждёт вас в “Bakery”. Мы печём каждый день, используя
                     только натуральные ингредиенты и проверенные рецепты, чтобы порадовать вас настоящим
-                    вкусом домашней выпечки.
+                    вкусом домашней выпечки.<br><br>
                     Загляните к нам за чашечкой ароматного кофе и свежей выпечкой – почувствуйте уют, тепло
                     и заботу в каждом кусочке.</p>
-                <a href=# class=link>Больше о нас</a>
+                <a href=# class="link">Больше о нас</a>
             </div>
         </section>
     </div>
     <!-- <! - - Products Section -->
     <div class="container">
-        <section class=products>
+        <section class="products">
             <h3 class="product__title">Ассортимент</h3>
-            <div class=product-tabs>
-                <a href=# class="product__link-active">Выпечка</a>
-                <a href=# class=link>Пирожные и кексы</a>
-                <a href=# class=link>Торты</a>
+            <div class="product-tabs">
+                <a href="#" class="product__link-active">Выпечка</a>
+                <a href="#" class="link">Пирожные и кексы</a>
+                <a href="#" class="link">Торты</a>
             </div>
             <div class="container__card">
                 <div class="product">
@@ -101,7 +97,6 @@
             </div>
         </section>
     </div>
-    </section>
     <!-- <! - - Fresh Products -->
     <div class="container">
         <section class=fresh-products>
@@ -123,14 +118,14 @@
                     угощений. Мы уверены, что каждый кусочек нашей продукции сделает ваш день немного
                     вкуснее!
                     Заглядывайте к нам каждый день, ведь у нас всегда свежее и ароматное!</p>
-            </div><img class="img-fresh" src=images/image2.png alt=Bread>
+            </div><img class="img-fresh" src=images/image2.png alt="Свежий хлеб">
         </section>
     </div>
     <!-- <! - - Reviews  -->
     <div class="container">
-        <section class=reviews>
+        <section class="reviews">
             <h3>Отзывы</h3>
-            <div class=review-slyder>
+            <div class="review-slyder">
                 <div class="review_card">
                     ★★★★★
                     <p>Отличная пекарня! Каждое утро прихожу сюда за свежими булочками и круассанами — всегда вкусно и
@@ -151,7 +146,7 @@
                     </p>
                     <div class="review__data">
                         <p class="review__name">Анна</p>
-                        <P>15 сентября 2025</P>
+                        <p>15 сентября 2025</p>
                     </div>
                 </div>
                 <div class="review_card">
@@ -200,41 +195,32 @@
     </div>
 </body>
 
-<!-- <! - - Footer  -->
 <footer class="footer">
-    <div>
-        <img class="footer__logo" src=images/logo.png alt=Bakery Logo>
-    </div>
-    <div class="footer__social-icons">
-        <img class="vk" src="images/icon-vk.png" width="45" height="45" alt="vk">
-        <img class="tg" src="images/icon-tg.png" width="45" height="45" alt="tg">
-        <ul class="footer__contact">
-            <li class="footer__contact-items">8(800)564-37-37</li>
-            <li class="footer__contact-items">info@bakery.ru</li>
-            <li class="footer__contact-items">ООО “Bakery” 2020-2025</li>
-        </ul>
-    </div>
-    </div>
-    <div>
-        <ul class="footer__link">
-            <li class="footer__link-items">
-                <a
-                    href="https://loqo59.ru/files/URBAN_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8.pdf">Политика
-                    конфиденциальности</a>
-            </li>
-            <li class="footer__link-items">
-                <a href="https://turandot-palace.ru/soglashenie/polzovatelskoe-soglashenie-17-11-15.pdf">Пользовательское
-                    соглашение</a>
-            </li>
-            <li class="footer__link-items">
-                <a
-                    href="https://nok-nark.ru/upload/iblock/22d/qqm3lifrkfh0x18fycms67433v4bruw3/1.%20%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.pdf">
-                    Политика обработки персональных данных</a>
-            </li>
-        </ul>
+    <div class="footer__container">
+        <div>
+            <img class="footer__logo" src="images/logo.png" alt="Bakery Logo">
+        </div>
+
+        <div class="footer__social-icons">
+            <img class="footer__social-link" src="images/icon-vk.png" width="45" height="45" alt="vk">
+            <img class="footer__social-link" src="images/icon-tg.png" width="45" height="45" alt="tg">
+            <ul class="footer__contact">
+                <li class="footer__contact-items">8(800)564-37-37</li>
+                <li class="footer__contact-items">info@bakery.ru</li>
+                <li class="footer__contact-items">ООО “Bakery” 2020-2025</li>
+            </ul>
+        </div>
+
+        <div class="footer__links-right">
+            <ul class="footer__link">
+                <li class="footer__link-items"><a href="#">Политика конфиденциальности</a></li>
+                <li class="footer__link-items"><a href="#">Пользовательское соглашение</a></li>
+                <li class="footer__link-items"><a href="#">Политика обработки данных</a></li>
+            </ul>
+        </div>
     </div>
 </footer>
-</div>
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
 
