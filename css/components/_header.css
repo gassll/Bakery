@@ -28,7 +28,7 @@
 }
 
 .hero {
-    height: 100vh;
+    height: 100vh; /* сигма */
     background-image: url("flour-bg.jpg");
     background-size: cover;
     display: flex;
