@@ -1,0 +1,44 @@
+.nav {
+    top: 0;
+    width: 100%;
+    padding: 0 1rem;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 110px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link {
+    color: #8b4513;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #843b00;
+    border-radius: 26px;
+    color: #ffe2cd;
+    padding: 12px 20px;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("flour-bg.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: #8b4513;
+    font-size: 4rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
