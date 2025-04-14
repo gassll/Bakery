@@ -1,0 +1,115 @@
+.stocks__video {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.container__stocks {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.stocks__offer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.stocks__offer-card {
+    background-color: #D1C0AB;
+    max-width: 440px;
+    padding: 40px 30px;
+    border-radius: 50px;
+    text-align: center;
+    height: 800px;
+    line-height: 1.5;
+    margin-bottom: 65px;
+}
+
+.stocks__offer-card:nth-child(2) {
+    background-color: #A0A0A0;
+}
+
+.stocks__offer-card h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.stocks__offer-card p {
+    font-size: 20px;
+}
+
+.stocks__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.stocks__image2 {
+    display: none;
+}
+
+.stocks__image3 {
+    display: none;
+}
+
+
+@media (max-width: 1024px) {
+    .stocks__title {
+        font-size: 32px;
+    }
+
+    .stocks__offer-card h1 {
+        font-size: 24px;
+    }
+
+    .stocks__offer-card p {
+        font-size: 15px;
+    }
+}
+
+/* Для экранов ≤768px */
+@media (max-width: 768px) {
+    .stocks__offer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stocks__offer-card {
+        max-width: 100%;
+    }
+
+    .stocks__video {
+        max-height: 300px;
+    }
+}
+
+/* Для мобильных ≤480px */
+@media (max-width: 480px) {
+    .stocks__title {
+        font-size: 24px;
+    }
+
+    .stocks__offer-card h1 {
+        font-size: 20px;
+    }
+
+    .stocks__offer-card p {
+        font-size: 14px;
+    }
+
+    .stocks__offer-card {
+        padding: 20px 16px;
+        border-radius: 20px;
+    }
+
+    .stocks__video {
+        max-height: 200px;
+    }
+}
