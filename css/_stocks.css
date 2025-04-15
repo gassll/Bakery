@@ -60,56 +60,96 @@
 }
 
 
-@media (max-width: 1024px) {
-    .stocks__title {
-        font-size: 32px;
+@media (max-width: 1430px) {
+    .stocks__offer {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .stocks__offer-card h1 {
-        font-size: 24px;
-    }
-
-    .stocks__offer-card p {
-        font-size: 15px;
+    .stocks__offer-card {
+        max-width: 420px;
+        height: auto;
     }
 }
 
-/* Для экранов ≤768px */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .stocks__offer {
         flex-direction: column;
         align-items: center;
     }
 
     .stocks__offer-card {
-        max-width: 100%;
-    }
-
-    .stocks__video {
-        max-height: 300px;
-    }
-}
-
-/* Для мобильных ≤480px */
-@media (max-width: 480px) {
-    .stocks__title {
-        font-size: 24px;
+        width: 90%;
+        margin: 20px auto;
+        padding: 30px 20px;
     }
 
     .stocks__offer-card h1 {
-        font-size: 20px;
+        font-size: 32px;
+    }
+
+    .stocks__offer-card p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .stocks__video {
+        max-width: 100%;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .stocks__title {
+        font-size: 32px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .stocks__offer-card {
+        border-radius: 30px;
+        padding: 25px 15px;
+    }
+
+    .stocks__offer-card h1 {
+        font-size: 26px;
+    }
+
+    .stocks__offer-card p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stocks__offer-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .stocks__offer-card {
+        padding: 20px 10px;
+    }
+
+    .stocks__offer-card h1 {
+        font-size: 22px;
+        margin-top: 30px;
     }
 
     .stocks__offer-card p {
         font-size: 14px;
     }
 
-    .stocks__offer-card {
-        padding: 20px 16px;
-        border-radius: 20px;
+    .stocks__title {
+        font-size: 26px;
     }
 
-    .stocks__video {
-        max-height: 200px;
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        padding: 5px 0;
     }
 }

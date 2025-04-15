@@ -52,6 +52,11 @@
 }
 
 
+
+
+
+
+
 /* .menu-btn {
     position: relative;
     display: none;
@@ -117,6 +122,7 @@
 .header__mobile.active {
     transform: translateX(0);
 } */
+
 
 
 @media (max-width: 1250px) {
