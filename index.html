@@ -20,28 +20,43 @@
 <body>
     <header>
         <div class="container">
-            <!-- Navigation  -->
             <nav class="nav">
                 <img src="images/лого.svg" alt="Bakery Logo" class="nav-logo">
-                <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
-                <label for="burger-checkbox" class="burger"></label>
-                <div class=nav-menu>
-                    <a href='index.html' class="nav-link">Главная</a>
-                    <a href='about.html' class="nav-link">О нас</a>
-                    <a href='assortment-pastry.html' class="nav-link">Ассортимент</a>
-                    <a href='stocks.html' class="nav-link">Акции</a>
-                    <a href='buy.html' class="nav-link">Где купить</a>
+
+                <div class="nav-menu">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="about.html" class="nav-link">О нас</a>
+                    <a href="assortment-pastry.html" class="nav-link">Ассортимент</a>
+                    <a href="stocks.html" class="nav-link">Акции</a>
+                    <a href="buy.html" class="nav-link">Где купить</a>
                 </div>
+
+                <div class="burger" id="burger">&#9776;</div>
             </nav>
         </div>
 
-        <!-- Hero Section -->
-        <section class="hero">
-            <h1 class="hero-title">Bakery</h1>
-        </section>
+        <!-- Мобильное полноэкранное меню -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-header">
+                <img src="images/лого.svg" alt="Bakery Logo" class="nav-logo">
+                <div class="close-btn" id="closeBtn">&times;</div>
+            </div>
+            <div class="mobile-menu-links">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="assortment-pastry.html">Ассортимент</a>
+                <a href="stocks.html">Акции</a>
+                <a href="buy.html">Где купить</a>
+            </div>
         </div>
+
+
+        <div class="nav__video">
+            <video class="video" src="images/video2.mp4" autoplay loop muted></video>
+        </div>
+
     </header>
-    <!-- Welcome Section  -->
+
     <div class="container">
         <section class="welcome">
             <img src="images/image1.png" alt="Bakery Interior">
@@ -59,7 +74,7 @@
             </div>
         </section>
     </div>
-    <!-- <! - - Products Section -->
+
     <div class="container">
         <section class="products">
             <h3 class="product__title">Ассортимент</h3>
@@ -107,7 +122,7 @@
             </div>
         </section>
     </div>
-    <!-- <! - - Fresh Products -->
+
     <div class="container">
         <section class=fresh-products>
             <div class="fresh__card">
@@ -132,7 +147,7 @@
             <img class="img-fresh" src="images/image2.png" alt="Свежий хлеб">
         </section>
     </div>
-    <!-- <! - - Reviews  -->
+
     <div class="container">
         <section class="reviews">
             <h3>Отзывы</h3>
@@ -226,25 +241,13 @@
                 <li class="footer__contact-items">8(918)-419-62-70</li>
                 <li class="footer__contact-items">ЕЖЕДНЕВНО С 8 ДО 20</li>
             </ul>
+        </div>
+        <div class="footer__social">
             <img class="footer__social-icons" src="images/icon-vk.png" width="65" height="65" alt="vk">
             <img class="footer__social-icons" src="images/icon-tg.png" width="65" height="65" alt="tg">
         </div>
-
-        <div class="footer__links-right">
-            <ul class="footer__info">
-                <li class="footer__info-items"></li>
-                <li class="footer__info-items">
-                    <img src="images/email.png" width="20" alt="email">
-                    info@bakery.ru
-                </li>
-                <li class="footer__info-items">ООО “Bakery” 2020-2025</li>
-            </ul>
-        </div>
-
     </div>
 </footer>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
 
 </html>

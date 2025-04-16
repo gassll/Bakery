@@ -26,19 +26,38 @@
 <body>
     <header>
         <div class="container">
-            <!-- Navigation  -->
             <nav class="nav">
                 <img src="images/лого.svg" alt="Bakery Logo" class="nav-logo">
-                <div class=nav-menu>
-                    <a href='index.html' class="nav-link">Главная</a>
-                    <a href='about.html' class="nav-link">О нас</a>
-                    <a href='assortment-pastry.html' class="nav-link">Ассортимент</a>
-                    <a href='stocks.html' class="nav-link">Акции</a>
-                    <a href='buy.html' class="nav-link">Где купить</a>
+
+                <div class="nav-menu">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="about.html" class="nav-link">О нас</a>
+                    <a href="assortment-pastry.html" class="nav-link">Ассортимент</a>
+                    <a href="stocks.html" class="nav-link">Акции</a>
+                    <a href="buy.html" class="nav-link">Где купить</a>
                 </div>
+
+                <!-- Бургер -->
+                <div class="burger" id="burger">&#9776;</div>
             </nav>
         </div>
+
+        <!-- Мобильное полноэкранное меню -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-header">
+                <img src="images/лого.svg" alt="Bakery Logo" class="nav-logo">
+                <div class="close-btn" id="closeBtn">&times;</div>
+            </div>
+            <div class="mobile-menu-links">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="assortment-pastry.html">Ассортимент</a>
+                <a href="stocks.html">Акции</a>
+                <a href="buy.html">Где купить</a>
+            </div>
+        </div>
     </header>
+
     <div class="container__stocks">
         <video class="stocks__video" autoplay muted loop playsinline>
             <source src="images/banner.mp4" type="video/mp4">
@@ -48,27 +67,27 @@
         Специальные предложения
     </h1>
     <div class="container">
-    <div class="stocks__offer">
+        <div class="stocks__offer">
 
-        <div class="stocks__offer-card">
-            <img src="images/stocks1.png" alt="Кафе">
-            <h1>Скидка за час до закрытия</h1>
-            <p>Во всех наших кафе действует <br> постоянная скидка 50% за час до <br> закрытия </p>
-        </div>
+            <div class="stocks__offer-card">
+                <img src="images/stocks1.png" alt="Кафе">
+                <h1>Скидка за час до закрытия</h1>
+                <p>Во всех наших кафе действует <br> постоянная скидка 50% за час до <br> закрытия </p>
+            </div>
 
-        <div class="stocks__offer-card">
-            <img src="images/stocks2.png" alt="Кафе">
-            <h1> До 13:00 скидка пенсионерам 10%</h1>
-            <p>Начните день с выгодных покупок! <br> До 13:00 пенсионерам предоставляется <br> скидка на весь
-                ассортимент. Заботимся о вас! </p>
-        </div>
+            <div class="stocks__offer-card">
+                <img src="images/stocks2.png" alt="Кафе">
+                <h1> До 13:00 скидка пенсионерам 10%</h1>
+                <p>Начните день с выгодных покупок! <br> До 13:00 пенсионерам предоставляется <br> скидка на весь
+                    ассортимент. Заботимся о вас! </p>
+            </div>
 
-        <div class="stocks__offer-card">
-            <img src="images/stocks3.png" alt="Кафе">
-            <h1>  До 14:00 скидка на вечернюю выпечку 30%</h1>
-            <p>Свежая выпечка по вкусной цене!<br> Успейте забрать свои любимые <br> угощения!</p>
+            <div class="stocks__offer-card">
+                <img src="images/stocks3.png" alt="Кафе">
+                <h1>  До 14:00 скидка на вечернюю выпечку 30%</h1>
+                <p>Свежая выпечка по вкусной цене!<br> Успейте забрать свои любимые <br> угощения!</p>
+            </div>
         </div>
-    </div>
     </div>
     </div>
 </body>
@@ -93,20 +112,14 @@
                 <li class="footer__contact-items">8(918)-419-62-70</li>
                 <li class="footer__contact-items">ЕЖЕДНЕВНО С 8 ДО 20</li>
             </ul>
+        </div>
+        <div class="footer__social">
             <img class="footer__social-icons" src="images/icon-vk.png" width="65" height="65" alt="vk">
             <img class="footer__social-icons" src="images/icon-tg.png" width="65" height="65" alt="tg">
         </div>
-
-        <div class="footer__links-right">
-            <ul class="footer__info">
-                <li class="footer__info-items"></li>
-                <li class="footer__info-items">
-                    <img src="images/email.png" width="20" alt="email">
-                    info@bakery.ru
-                </li>
-                <li class="footer__info-items">ООО “Bakery” 2020-2025</li>
-            </ul>
-        </div>
-
     </div>
 </footer>
+
+<script src="js/main.js"></script>
+
+</html>

@@ -132,7 +132,7 @@
 }
 
 @media (max-width: 1250px) {
-    .buy{
+    .buy {
         margin-bottom: 140px;
     }
 }
@@ -184,6 +184,10 @@
     .buy__card {
         padding: 20px;
     }
+
+    .nav-logo {
+        width: 90px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -194,7 +198,4 @@
     .buy__slider-text {
         font-size: 13px;
     }
-
 }
-
-

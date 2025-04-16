@@ -1,7 +1,7 @@
 .nav {
     top: 0;
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 16px;
     background: white;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
 
 .nav-menu {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .nav-link {
@@ -51,59 +51,70 @@
     font-weight: 400;
 }
 
-
-.burger-checkbox {
-    position: absolute;
-    visibility: hidden;
-}
-
 .burger {
+    font-size: 40px;
+    color: #8b4513;
     cursor: pointer;
     display: none;
-    position: relative;
-    border: none;
-    background: transparent;
-    width: 40px;
-    height: 26px;
-    margin: 30px auto;
 }
 
-.burger::before,
-.burger::after {
-    content: '';
-    left: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 10px;
-    background: #000;
-}
 
-.burger::before {
+.mobile-menu {
+    position: fixed;
     top: 0;
-    box-shadow: 0 11px 0 #000;
-    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #e7f1fa;
+    transition: right 0.4s ease;
+    z-index: 1000;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.burger::after {
-    bottom: 0;
-    transition: bottom .3s .15s, transform .3s;
+.mobile-menu.active {
+    right: 0;
 }
 
-.burger-checkbox:checked+.burger::before {
-    top: 11px;
-    transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
-    transition: box-shadow .15s, top .3s, transform .3s .15s;
+.mobile-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.burger-checkbox:checked+.burger::after {
-    bottom: 11px;
-    transform: rotate(-45deg);
-    transition: bottom .3s, transform .3s .15s;
+.close-btn {
+    font-size: 80px;
+    color: #8b4513;
+    cursor: pointer;
 }
 
+.mobile-menu-links {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.mobile-menu-links a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.mobile-menu-links a:hover {
+    color: #843b00;
+}
+
+.video {
+    padding: 0;
+    margin: 30px 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
 
 @media (max-width: 1250px) {
     .nav-link {
@@ -111,8 +122,8 @@
     }
 }
 
-@media (max-width: 1060px){
-    .nav-link{
+@media (max-width: 1060px) {
+    .nav-link {
         font-size: 17px;
         padding: 10px 18px;
         height: 43px;
@@ -121,7 +132,7 @@
 
 @media (max-width: 1023px) {
     .nav-menu {
-        gap: 1rem;
+        gap: 16px;
         flex-wrap: wrap;
         justify-content: flex-end;
     }
@@ -139,11 +150,23 @@
     }
 }
 
-@media (max-width: 817px) {
-    .burger{
-        display: block;
+@media (max-width: 835px) {
+    .nav-menu {
+        gap: 10px;
     }
 }
+
+
+@media (max-width: 817px) {
+    .burger {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+}
+
 
 
 /* https: //codepen.io/poliweb/pen/JzaMdm */
