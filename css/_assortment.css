@@ -147,6 +147,12 @@ h2 {
     .assortment__card {
         gap: 65px;
     }
+
+    /* .assortment__card-item:nth-child(1),
+    .assortment__card-item:nth-child(2),
+    .assortment__card-item:nth-child(3) {
+        height: 296px;
+    } */
 }
 
 
@@ -156,11 +162,11 @@ h2 {
         max-width: 320px;
     }
 
-    .assortment__card-item:nth-child(4),
-    .assortment__card-item:nth-child(5),
-    .assortment__card-item:nth-child(6) {
-        height: 318px;
-    }
+    /* .assortment__card-item:nth-child(1),
+    .assortment__card-item:nth-child(2),
+    .assortment__card-item:nth-child(3) {
+        height: 347px;
+    } */
 }
 
 @media (max-width: 1189px) {
@@ -192,19 +198,66 @@ h2 {
     .assortment__card {
         gap: 25px;
     }
-    /* .assortment__card-item:nth-child(4),
-    .assortment__card-item:nth-child(5),
-    .assortment__card-item:nth-child(6),
-    .assortment__card-item:nth-child(7),
-    .assortment__card-item:nth-child(8),
-    .assortment__card-item:nth-child(9) {
-        height: 300px;
-    } */
+
+    .assortment__title {
+        margin-top: 50px;
+    }
 }
 
-@media (max-width: 960px){
+@media (max-width: 960px) {
     .assortment__card-item {
         height: 324px;
-        max-width: 252px;
+        max-width: 345px;
+    }
+
+    .assortment-img {
+        height: 183px;
+    }
+}
+
+@media (max-width: 814px) {
+    .assortment__card-item {
+        height: 352px;
+        max-width: 315px;
+    }
+}
+
+
+@media (max-width: 754px) {
+    .assortment__card-item {
+        height: 345px;
+        max-width: 290px;
+    }
+}
+
+@media (max-width: 704px) {
+    .assortment__card-item {
+        height: 340px;
+        max-width: 260px;
+    }
+}
+
+@media (max-width: 660px) {
+    .assortment__card-item {
+        height: 300px;
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 626px) {
+    .assortment__title {
+        font-size: 38px;
+    }
+
+    .link, .product__link-active{
+        font-size: 14px;
+    }
+
+    .assortment__card-item p{
+        font-size: 13px;
+    }
+
+    .assortment__card-item h3{
+        font-size: 18px;
     }
 }
