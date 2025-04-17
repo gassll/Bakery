@@ -15,12 +15,12 @@
 .stocks__offer {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 24px;
 }
 
 .stocks__offer-card {
     background-color: #D1C0AB;
-    max-width: 440px;
+    width: 440px;
     padding: 40px 30px;
     border-radius: 50px;
     text-align: center;
@@ -36,16 +36,16 @@
 .stocks__offer-card h1 {
     margin-top: 50px;
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 .stocks__offer-card p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .stocks__title {
     text-align: center;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 500;
     margin-top: 70px;
     margin-bottom: 35px;
@@ -72,72 +72,14 @@
     }
 }
 
-@media (max-width: 1410px) {
-    .stocks__offer-card {
-        max-width: 400px;
-    }
-}
-
-@media (max-width: 1319px) {
-    .stocks__offer-card {
-        max-width: 385px;
-    }
-}
-
-@media (max-width: 1274px) {
-    .stocks__offer-card {
-        max-width: 375px;
-    }
-
-    .stocks__offer-card h1{
-        margin-top: 20px;
-        font-size: 37px;
-    }
-
-    .stocks__offer-card p{
-        font-size: 19px;
-    }
-}
-
-
-@media (max-width: 1244px) {
+@media (max-width: 1407px) {
     .stocks__offer-card {
         max-width: 365px;
     }
 
     .stocks__offer-card h1 {
-        margin-top: 30px;
-        font-size: 36px;
-    }
-
-    .stocks__offer-card p {
-        font-size: 17px;
-    }
-}
-
-@media (max-width: 1214px) {
-    .stocks__offer-card {
-        max-width: 350px;
-    }
-
-    .stocks__offer-card h1 {
-        margin-top: 10px;
-        font-size: 34px;
-    }
-
-    .stocks__offer-card p {
-        font-size: 17px;
-    }
-}
-
-@media (max-width: 1169px) {
-    .stocks__offer-card {
-        max-width: 330px;
-    }
-
-    .stocks__offer-card h1 {
-        margin-top: 10px;
-        font-size: 31px;
+        font-size: 35px;
+        margin-top: 40px;
     }
 
     .stocks__offer-card p {
@@ -146,14 +88,75 @@
 }
 
 
+@media (max-width: 1242px) {
+    .stocks__offer-card {
+        max-width: 335px;
+    }
+
+    .stocks__offer-card h1 {
+        font-size: 32px;
+        margin-top: 30px;
+    }
+
+    .stocks__offer-card p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1152px) {
+    .stocks__offer-card {
+        max-width: 300px;
+    }
+
+    .stocks__offer-card h1 {
+        font-size: 29px;
+        margin-top: 30px;
+    }
+
+    .stocks__offer-card p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1047px) {
+    .stocks__offer-card {
+        max-width: 270px;
+    }
+
+    .stocks__offer-card h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .stocks__offer-card p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 957px) {
+    .stocks__offer-card {
+        max-width: 250px;
+    }
+
+    .stocks__offer-card h1 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .stocks__offer-card p {
+        font-size: 11px;
+    }
+
+    .stocks__title {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+}
 
 
 
 
-
-
-
-@media (max-width: 1024px) {
+/* @media (max-width: 1034px) {
     .stocks__offer {
         flex-direction: column;
         align-items: center;
@@ -233,4 +236,4 @@
     .nav-link {
         padding: 5px 0;
     }
-}
+} */
