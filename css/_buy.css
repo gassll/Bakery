@@ -34,15 +34,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* добавим отступы между карточками */
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     height: 428px;
     width: 467px;
     padding-right: 10px;
-    /* небольшой отступ для скролла */
     scrollbar-width: thin;
-    /* тонкий скроллбар для Firefox */
     scroll-behavior: smooth;
 
 }
@@ -185,9 +182,6 @@
         padding: 20px;
     }
 
-    .nav-logo {
-        width: 90px;
-    }
 }
 
 @media (max-width: 320px) {

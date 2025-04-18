@@ -5,24 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakery</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/vendor/_reset.css">
-    <link rel="stylesheet" href="css/components/_footer.css">
-    <link rel="stylesheet" href="css/components/_header.css">
-    <link rel="stylesheet" href="css/_assortment.css">
-
 </head>
 
 <body>
     <header>
         <div class="container">
             <nav class="nav">
-                <img src="images/лого.svg" alt="Bakery Logo" class="nav-logo">
+                <img src="images/logo.svg" alt="Bakery Logo" class="nav-logo">
 
                 <div class="nav-menu">
                     <a href="index.html" class="nav-link">Главная</a>
@@ -32,15 +22,13 @@
                     <a href="buy.html" class="nav-link">Где купить</a>
                 </div>
 
-                <!-- Бургер -->
                 <div class="burger" id="burger">&#9776;</div>
             </nav>
         </div>
 
-        <!-- Мобильное полноэкранное меню -->
         <div class="mobile-menu" id="mobileMenu">
             <div class="mobile-menu-header">
-                <img src="images/лого.svg" alt="Bakery Logo" class="nav-logo">
+                <img src="images/logo.svg" alt="Bakery Logo" class="nav-logo">
                 <div class="close-btn" id="closeBtn">&times;</div>
             </div>
             <div class="mobile-menu-links">
@@ -84,7 +72,6 @@
             </button>
         </div>
 
-
         <div class="assortment__offer">
             <h2>А ещё у нас есть</h2>
             <div class="assortment__offer-card">
@@ -126,44 +113,34 @@
             </div>
         </div>
     </div>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div>
+                <img class="footer__logo" src="images/logo.png" alt="Bakery Logo">
+            </div>
+            <div class="footer__social-link">
+                <ul class="footer__link">
+                    <li class="footer__link-items"><a href="index.html">Главная</a></li>
+                    <li class="footer__link-items"><a href="about.html">О нас</a></li>
+                    <li class="footer__link-items"><a href="assortment-cake.html">Ассортимент</a></li>
+                    <li class="footer__link-items"><a href="stocks.html">Акции</a></li>
+                    <li class="footer__link-items"><a href="buy.html">Где купить</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <ul>
+                    <li class="footer__contact-items">ТЕЛЕФОН ДЛЯ СПРАВОК: </li>
+                    <li class="footer__contact-items">8(918)-419-62-70</li>
+                    <li class="footer__contact-items">ЕЖЕДНЕВНО С 8 ДО 20</li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <img class="footer__social-icons" src="images/icon-vk.png" width="65" height="65" alt="vk">
+                <img class="footer__social-icons" src="images/icon-tg.png" width="65" height="65" alt="tg">
+            </div>
+        </div>
+    </footer>
 </body>
 
-<footer class="footer">
-    <div class="footer__container">
-        <div>
-            <img class="footer__logo" src="images/logo.png" alt="Bakery Logo">
-        </div>
-        <div class="footer__social-link">
-            <ul class="footer__link">
-                <li class="footer__link-items"><a href="index.html">Главная</a></li>
-                <li class="footer__link-items"><a href="about.html">О нас</a></li>
-                <li class="footer__link-items"><a href="assortment-cake.html">Ассортимент</a></li>
-                <li class="footer__link-items"><a href="stocks.html">Акции</a></li>
-                <li class="footer__link-items"><a href="buy.html">Где купить</a></li>
-            </ul>
-        </div>
-        <div class="footer__contact">
-            <ul>
-                <li class="footer__contact-items">ТЕЛЕФОН ДЛЯ СПРАВОК: </li>
-                <li class="footer__contact-items">8(918)-419-62-70</li>
-                <li class="footer__contact-items">ЕЖЕДНЕВНО С 8 ДО 20</li>
-            </ul>
-        </div>
-        <div class="footer__social">
-            <img class="footer__social-icons" src="images/icon-vk.png" width="65" height="65" alt="vk">
-            <img class="footer__social-icons" src="images/icon-tg.png" width="65" height="65" alt="tg">
-        </div>
-    </div>
-</footer>
-<script src="js/main.js"></script>
-
 </html>
-
-<style>
-    .assortment__row {
-        margin: 50px 0;
-        grid-template-columns: repeat(2, 1fr);
-        display: grid;
-        grid-gap: 100px;
-    }
-</style>

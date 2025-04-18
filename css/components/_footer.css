@@ -4,10 +4,8 @@
   justify-content: space-between;
   padding: 20px 50px;
   flex-wrap: wrap;
-
   align-items: center;
   text-align: center;
-
   max-width: 1440px;
   margin: 0 auto;
   font-family: "Montserrat";
@@ -40,8 +38,6 @@
 .footer__social-icons:not(:last-child) {
   margin-right: 20px;
 }
-
-.footer__items img {}
 
 .footer__contact-items {
   margin-bottom: 15px;
@@ -150,26 +146,3 @@ body {
     margin-left: 0;
   }
 }
-
-/* 
-@media (max-width: 660px) {
-  .footer__container {
-    flex-wrap: wrap;
-    padding: 15px 50px;
-  }
-}
-
-@media (max-width: 480px) {
-
-  .footer__info-items,
-  .footer__link-items {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 320px) {
-  .footer__social-link {
-    width: 35px;
-    height: 35px;
-  }
-} */

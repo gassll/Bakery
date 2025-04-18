@@ -5,23 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakery</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/vendor/_reset.css">
-    <link rel="stylesheet" href="css/components/_footer.css">
-    <link rel="stylesheet" href="css/components/_header.css">
-    <link rel="stylesheet" href="css/_assortment.css">
 </head>
 
 <body>
     <header>
         <div class="container">
             <nav class="nav">
-                <img src="images/лого.svg" alt="Bakery Logo" class="nav-logo">
+                <img src="images/logo.svg" alt="Bakery Logo" class="nav-logo">
 
                 <div class="nav-menu">
                     <a href="index.html" class="nav-link">Главная</a>
@@ -37,7 +28,7 @@
 
         <div class="mobile-menu" id="mobileMenu">
             <div class="mobile-menu-header">
-                <img src="images/лого.svg" alt="Bakery Logo" class="nav-logo">
+                <img src="images/logo.svg" alt="Bakery Logo" class="nav-logo">
                 <div class="close-btn" id="closeBtn">&times;</div>
             </div>
             <div class="mobile-menu-links">
@@ -59,7 +50,7 @@
     <div class="container">
         <section class="welcome">
             <img src="images/image1.png" alt="Bakery Interior">
-            <div>
+            <div class="welcome__text">
                 <h2>Добро пожаловать в Bakery – место, где живёт вкус!</h2>
                 <p class="welcome__description">Свежий хлеб с хрустящей корочкой, ароматные круассаны, воздушные
                     эклеры
@@ -69,7 +60,7 @@
                     вкусом домашней выпечки.<br><br>
                     Загляните к нам за чашечкой ароматного кофе и свежей выпечкой – почувствуйте уют, тепло
                     и заботу в каждом кусочке.</p>
-                <a href="about.html" class="link">Больше о нас</a>
+                <a href="about.html" class="link__more">Больше о нас</a>
             </div>
         </section>
     </div>
@@ -124,11 +115,11 @@
     </div>
 
     <div class="container">
-        <section class=fresh-products>
+        <section class="fresh-products">
             <div class="fresh__card">
                 <h3 class="fresh__title">Свежая продукция</h3>
-                <p>Мы всегда следим за тем, чтобы качество нашей продукции было на высоте.</p>
-                <p>Мы предлагаем только свежую и качественную продукцию, которую любят взрослые и дети.
+                <p class="fresh__text">Мы всегда следим за тем, чтобы качество нашей продукции было на высоте.</p>
+                <p class="fresh__text">Мы предлагаем только свежую и качественную продукцию, которую любят взрослые и дети.
                     Пекарня
                     “Bakery” — это аромат свежеиспеченного хлеба, домашняя пышная выпечка, хрустящие
                     багеты и
@@ -136,7 +127,7 @@
                     открываемся рано утром и работаем до позднего вечера для того, чтобы Вы могли
                     приобрести
                     только свежий хлеб и выпечку.</p>
-                <p>Здесь, в нашей пекарне, вы всегда найдете что-то по-настоящему особенное — от
+                <p class="fresh__text">Здесь, в нашей пекарне, вы всегда найдете что-то по-настоящему особенное — от
                     хрустящих
                     багетов до мягких и воздушных круассанов, от классических пирогов до оригинальных
                     сладких
@@ -151,8 +142,8 @@
     <div class="container">
         <section class="reviews">
             <h3>Отзывы</h3>
-            <div class="review-slyder">
-                <div class="review_card">
+            <div class="review__card">
+                <div class="review__card-item">
                     ★★★★★
                     <p>Отличная пекарня! Каждое утро прихожу сюда за свежими булочками и круассанами — всегда вкусно и
                         ароматно. Приятно удивляют новинки на полках, а особенно — их фирменный хлеб с орехами. Очень
@@ -164,7 +155,7 @@
                         <P>18 февраля 2025</P>
                     </div>
                 </div>
-                <div class="review_card">
+                <div class="review__card-item">
                     ★★★★★
                     <p>Свежий хлеб и внимательное обслуживаниеЗашел в пекарню случайно, но остался очень доволен. Хлеб
                         здесь всегда свежий и
@@ -175,17 +166,17 @@
                         <p>15 сентября 2025</p>
                     </div>
                 </div>
-                <div class="review_card">
+                <div class="review__card-item">
                     ★★★★★
                     <p>Вкусно и по-домашнему!Я всегда ищу пекарни, которые делают всё как в старину — без лишних
                         добавок и с настоящим вкусом.
                         Здесь такие! Особенно люблю их расстегаи и пиццу. Вкусно, как у бабушки на даче!</p>
                     <div class="review__data">
                         <p class="review__name">Алексей</p>
-                        <P>24 марта 2025</P>
+                        <p>24 марта 2025</p>
                     </div>
                 </div>
-                <div class="review_card">
+                <div class="review__card-item">
                     ★★★★★
                     <p>Уют и вкус в каждой деталиЗаходя сюда, чувствуешь себя как дома. Вкуснейшая выпечка, всегда
                         свежая, а аромат
@@ -195,9 +186,9 @@
                         <P>2 апреля 2024</P>
                     </div>
                 </div>
-                <div class="review_card">
+                <div class="review__card-item">
                     ★★★★★
-                    <p>Невероятно вкусный кофе и выпечкаОбожаю здесь брать утренний кофе с какой-нибудь свежей
+                    <p>Невероятно вкусный кофе и выпечка. Обожаю здесь брать утренний кофе с какой-нибудь свежей
                         выпечкой. Особенно нравится их
                         круассан с миндалем — идеальный завтрак! Персонал очень вежливый и всегда с улыбкой.</p>
                     <div class="review__data">
@@ -205,7 +196,7 @@
                         <P>8 ноября 2024</P>
                     </div>
                 </div>
-                <div class="review_card">
+                <div class="review__card-item">
                     ★★★★★
                     <p>Лучшие пироги в городе!Эта пекарня — настоящее открытие для меня! Пироги с разными начинками
                         просто потрясающие. Я
@@ -219,35 +210,35 @@
             </div>
         </section>
     </div>
-</body>
 
-<footer class="footer">
-    <div class="footer__container">
-        <div>
-            <img class="footer__logo" src="images/logo.png" alt="Bakery Logo">
+    <footer class="footer">
+        <div class="footer__container">
+            <div>
+                <img class="footer__logo" src="images/logo.png" alt="Bakery Logo">
+            </div>
+            <div class="footer__social-link">
+                <ul class="footer__link">
+                    <li class="footer__link-items"><a href="index.html">Главная</a></li>
+                    <li class="footer__link-items"><a href="about.html">О нас</a></li>
+                    <li class="footer__link-items"><a href="assortment-pastry.html">Ассортимент</a></li>
+                    <li class="footer__link-items"><a href="stocks.html">Акции</a></li>
+                    <li class="footer__link-items"><a href="buy.html">Где купить</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <ul>
+                    <li class="footer__contact-items">ТЕЛЕФОН ДЛЯ СПРАВОК: </li>
+                    <li class="footer__contact-items">8(918)-419-62-70</li>
+                    <li class="footer__contact-items">ЕЖЕДНЕВНО С 8 ДО 20</li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <img class="footer__social-icons" src="images/icon-vk.png" width="65" height="65" alt="vk">
+                <img class="footer__social-icons" src="images/icon-tg.png" width="65" height="65" alt="tg">
+            </div>
         </div>
-        <div class="footer__social-link">
-            <ul class="footer__link">
-                <li class="footer__link-items"><a href="index.html">Главная</a></li>
-                <li class="footer__link-items"><a href="about.html">О нас</a></li>
-                <li class="footer__link-items"><a href="assortment-cake.html">Ассортимент</a></li>
-                <li class="footer__link-items"><a href="stocks.html">Акции</a></li>
-                <li class="footer__link-items"><a href="buy.html">Где купить</a></li>
-            </ul>
-        </div>
-        <div class="footer__contact">
-            <ul>
-                <li class="footer__contact-items">ТЕЛЕФОН ДЛЯ СПРАВОК: </li>
-                <li class="footer__contact-items">8(918)-419-62-70</li>
-                <li class="footer__contact-items">ЕЖЕДНЕВНО С 8 ДО 20</li>
-            </ul>
-        </div>
-        <div class="footer__social">
-            <img class="footer__social-icons" src="images/icon-vk.png" width="65" height="65" alt="vk">
-            <img class="footer__social-icons" src="images/icon-tg.png" width="65" height="65" alt="tg">
-        </div>
-    </div>
-</footer>
-<script src="js/main.js"></script>
+    </footer>
+
+</body>
 
 </html>

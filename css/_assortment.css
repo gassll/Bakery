@@ -123,6 +123,20 @@ h2 {
     color: #929292;
 }
 
+.assortment__cupcakes-row {
+    margin: 50px 0;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 130px;
+}
+
+.assortment__row {
+    margin: 50px 0;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 100px;
+}
+
 @media (max-width: 1380px) {
     .assortment__card-item {
         max-width: 378px;
@@ -304,7 +318,8 @@ h2 {
         margin-right: 24px;
         font-size: 13px;
     }
-    .assortment__card-item{
+
+    .assortment__card-item {
         height: 317px;
     }
 }
