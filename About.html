@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakery</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
 </head>
 
 <body>
@@ -45,10 +47,12 @@
     <div class="container">
         <h1 class="about__title">О нас</h1>
         <section class="about">
-
-            <model-viewer src="images/logo.gbl" alt="logo" auto-rotate camera-controls
-                style="width: 600px; height: 400px; background-color: transparent;" shadow-intensity="0"
+            
+            <div class="model-wrapper">
+            <model-viewer src="images/logo.gltf" alt="logo" auto-rotate camera-controls
+                style="" shadow-intensity="0"
                 environment-image="neutral"></model-viewer>
+            </div>
 
             <div class="about__description">
                 Добро пожаловать в Bakery — место, где каждый кусочек приносит радость!
@@ -112,6 +116,7 @@
             </div>
         </div>
     </footer>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
