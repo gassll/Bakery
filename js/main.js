@@ -16,6 +16,7 @@ document.querySelectorAll(".mobile-menu-links a").forEach((link) => {
   });
 });
 
+//отзывы
 document
   .getElementById("feedbackForm")
   .addEventListener("submit", function (event) {
