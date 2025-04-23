@@ -1,0 +1,106 @@
+.assortment__card-more {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 65px;
+    align-items: center;
+}
+
+.assortment__left {
+    max-width: 700px;
+}
+
+.assortment__subtitle {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.assortment__card-more h2 {
+    font-size: 32px;
+    margin-bottom: 27px;
+}
+
+.assortment__card-more p:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.assortment__btn {
+    background: #894e21;
+    color: #ffe2cd;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.assortment__row {
+    margin: 50px 0;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 186px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.assortment__offer-card {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.assortment__offer-item {
+    width: 380px;
+    height: 350px;
+    flex-direction: column;
+    display: flex;
+}
+
+.assortment__offer-item h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.assortment__offer-item p {
+    font-size: 14px;
+    color: #929292;
+}
+
+.assortment__cupcakes-row {
+    margin: 50px 0;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 130px;
+}
+
+.assortment__cake-row {
+    margin: 50px 0;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 100px;
+}
+
+.assortment__more-img{
+    height: auto;
+}
+
+@media (max-width: 1294px) {
+    .assortment__offer-item {
+        width: 340px;
+    }
+
+    .assortment__offer-card {
+        gap: 30px;
+    }
+
+    .assortment__row {
+        grid-gap: 108px;
+    }
+}
+

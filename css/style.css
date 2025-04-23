@@ -7,7 +7,8 @@
 @import '/css/index/_product.css';
 @import '/css/index/_welcome.css';
 @import '/css/_about.css';
-@import '/css/_assortment.css';
+@import '/css/assortment/_assortment.css';
+@import '/css/assortment/_assortment__pastry-more.css';
 @import '/css/_buy.css';
 @import '/css/_stocks.css';
 

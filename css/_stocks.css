@@ -59,6 +59,9 @@
     display: none;
 }
 
+.stocks__offer-card img{
+    border-radius: 20px;
+}
 
 @media (max-width: 1430px) {
     .stocks__offer {
@@ -166,5 +169,9 @@
 
     .stocks__video {
         margin-top: 25px;
+    }
+
+    .stocks__title {
+        font-size: 24px;
     }
 }
