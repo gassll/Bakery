@@ -214,10 +214,28 @@ h2 {
         display: flex;
         width: 125px;
     }
+
+    .assortment__offer-card {
+        gap: 23px;
+    }
 }
 
-@media (max-width:819px) {
+@media (max-width:807px) {
+    .assortment__offer-item {
+        width: 200px;
+        height: 250px;
+    }
 
+    .assortment__offer-item p {
+        font-size: 11px;
+    }
+
+    .assortment__offer-card {
+        gap: 20px;
+    }
+}
+
+@media (max-width:750px) {
     .assortment__card-more,
     .assortment__offer-card {
         align-items: center;
@@ -227,7 +245,25 @@ h2 {
         text-align: center;
     }
 
+    .assortment__offer-item p {
+        font-size: 14px;
+    }
+
+    .assortment__offer-item {
+        height: 333px;
+        width: 318px;
+    }
+
     .assortment__right {
         align-items: center;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .assortment__price {
+        justify-content: center;
     }
 }
