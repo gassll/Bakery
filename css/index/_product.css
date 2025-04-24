@@ -23,6 +23,7 @@
 .product__card {
     display: flex;
     flex-wrap: wrap;
+    gap: 13px;
 }
 
 .product__subtitle {
@@ -188,6 +189,7 @@
 
     .product__card {
         gap: 30px;
+        justify-content: center;
     }
 
     .product p {
