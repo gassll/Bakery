@@ -129,6 +129,7 @@
 @media (max-width: 897px) {
     .stocks__offer-card {
         max-width: 220px;
+        padding: 30px;
     }
 
     .stocks__offer-card h1 {

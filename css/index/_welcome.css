@@ -31,8 +31,6 @@
     border-bottom: 0.5px solid #000000;
 }
 
-
-
 @media(max-width: 1238px) {
     .welcome__description{
         margin-bottom: 30px;

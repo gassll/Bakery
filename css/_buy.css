@@ -15,6 +15,10 @@
     margin-top: 50px;
 }
 
+.buy img{
+    object-fit: cover;
+}
+
 .buy__title {
     font-weight: 400;
     font-size: 40px;
