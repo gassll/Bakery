@@ -23,6 +23,10 @@
     margin-top: auto;
 }
 
+.assortment__offer-card img{
+    object-fit: contain;
+}
+
 .assortment__subtitle {
     font-size: 20px;
     margin-bottom: 25px;
@@ -127,7 +131,7 @@ h2 {
 @media (max-width: 1171px) {
     .assortment__offer-item {
         width: 300px;
-        height: 330px;
+        height: 340px;
     }
 
     .assortment__more-img {
@@ -161,7 +165,6 @@ h2 {
 @media (max-width: 999px) {
     .assortment__offer-item {
         width: 250px;
-        height: 300px;
     }
 
     .assortment__card-more p {
@@ -181,7 +184,7 @@ h2 {
 @media (max-width: 909px) {
     .assortment__offer-item {
         width: 220px;
-        height: 280px;
+        height: 330px;
     }
 
     .assortment__card-more p {
@@ -193,7 +196,7 @@ h2 {
     }
 
     .assortment__more-img {
-        width: 400px;
+        width: 350px;
     }
 
     .assortment__card-more h2 {
@@ -202,10 +205,6 @@ h2 {
 
     .assortment__offer-item p {
         font-size: 12px;
-    }
-
-    .assortment__offer-item {
-        height: 270px;
     }
 
     .assortment__btn {
@@ -223,7 +222,7 @@ h2 {
 @media (max-width:807px) {
     .assortment__offer-item {
         width: 200px;
-        height: 250px;
+        height: 325px;
     }
 
     .assortment__offer-item p {
@@ -250,7 +249,7 @@ h2 {
     }
 
     .assortment__offer-item {
-        height: 333px;
+        height: 340px;
         width: 318px;
     }
 

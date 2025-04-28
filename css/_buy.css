@@ -13,10 +13,13 @@
     margin: 0 auto;
     display: flex;
     margin-top: 50px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .buy img{
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .buy__title {
@@ -69,8 +72,22 @@
     }
 
     .buy img {
-        width: 45%;
+        width: 60%;
         height: auto;
+    }
+}
+
+@media (max-width: 1250px) {
+    .buy {
+        margin-bottom: 140px;
+    }
+
+    .buy img {
+        width: 50%;
+    }
+
+    .buy__image{
+        height: 500px;
     }
 }
 
@@ -82,7 +99,7 @@
     }
 
     .buy img {
-        width: 80%;
+        width: 100%;
     }
 
     .buy__slider {
@@ -95,17 +112,19 @@
         font-size: 32px;
         text-align: center;
     }
+
+    .buy__image{
+        height: 450px;
+    }
 }
 
 @media (max-width: 767px) {
     .buy {
-        flex-direction: column;
         padding: 0 15px;
         gap: 30px;
     }
 
     .buy img {
-        width: 100%;
         margin-top: 20px;
     }
 
@@ -130,45 +149,9 @@
     .buy__card {
         padding: 20px;
     }
-}
 
-@media (max-width: 1250px) {
-    .buy {
-        margin-bottom: 140px;
-    }
-}
-
-
-@media (max-width: 1023px) {
-    .buy {
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-    }
-
-    .buy img {
-        max-width: 100%;
-    }
-
-    .buy__slider {
-        width: 100%;
-        height: auto;
-        max-height: 428px;
-        overflow-y: scroll;
-    }
-}
-
-@media (max-width: 768px) {
-    .buy__title {
-        font-size: 30px;
-    }
-
-    .buy__slider-title {
-        font-size: 20px;
-    }
-
-    .buy__slider-text {
-        font-size: 14px;
+    .buy__image{
+        height: 330px;
     }
 }
 
@@ -184,6 +167,10 @@
 
     .buy__card {
         padding: 20px;
+    }
+
+    .buy__image{
+        height: 260px;
     }
 
 }

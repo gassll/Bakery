@@ -32,6 +32,7 @@
 
 .footer__logo {
   margin-right: 83px;
+  object-fit: contain;
 }
 
 .footer__social-icons:not(:last-child) {
@@ -54,7 +55,6 @@ html,
 body {
   height: 100%;
   margin: 0;
-  /* overflow: hidden; */
 }
 
 body {

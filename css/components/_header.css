@@ -8,10 +8,6 @@
     align-items: center;
 }
 
-.nav-logo {
-    width: 110px;
-}
-
 .nav-menu {
     display: flex;
     gap: 32px;
