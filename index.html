@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakery</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="print.css" media="print" onload="this.media='all';">
+
 </head>
 
 <body>
@@ -74,7 +76,7 @@
             <div class="product__card">
 
                 <div class="product">
-                    <img src="images/assortment/croissant.webp" width="360" height="207" alt="Круассан Миндальный">
+                    <img src="images/assortment/croissant.webp" width="360" height="207" alt="Круассан Миндальный" loading="lazy">
                     <h3 class="product__subtitle">Миндальный круассан с марципаном</h3>
                     <p>Хрустящее слоеное тесто, марципановый крем с темным ромом, лепестки миндаля, сахарная
                         пудра
@@ -86,7 +88,7 @@
                 </div>
 
                 <div class="product">
-                    <img src="images/assortment/croissant-cheese.webp" width="360" height="207" alt="Круассан с сыром">
+                    <img src="images/assortment/croissant-cheese.webp" width="360" height="207" alt="Круассан с сыром" loading="lazy">
                     <h3 class="product__subtitle">Круассан с сыром и соусом морне</h3>
                     <p>Хрустящее слоеное тесто, нежный сыр, соус Морне</p>
                     <div class="product__footer">
@@ -96,7 +98,7 @@
                 </div>
 
                 <div class="product">
-                    <img src="images/assortment/venzel.webp" width="360" height="207" alt="Вензель с брусникой">
+                    <img src="images/assortment/venzel.webp" width="360" height="207" alt="Вензель с брусникой" loading="lazy">
                     <h3 class="product__subtitle">Вензель с брусникой и яблоком</h3>
                     <p>Дрожжевое тесто, заварной крем, брусника, кусочки яблока</p>
                     <div class="product__footer">
@@ -106,7 +108,7 @@
                 </div>
 
                 <div class="product--extra">
-                    <img src="images/assortment/bun.webp" width="360" height="207" alt="Булочка с яблоком, изюмом и корицей">
+                    <img src="images/assortment/bun.webp" width="360" height="207" alt="Булочка с яблоком, изюмом и корицей" loading="lazy">
                     <h3 class="product__subtitle">Булочка с яблоком, изюмом и корицей</h3>
                     <p>Сдобное тесто, начинка из яблок, изюма, корицы и грецкого ореха</p>
                     <div class="product__footer">
@@ -147,7 +149,7 @@
                     вкуснее!
                     Заглядывайте к нам каждый день, ведь у нас всегда свежее и ароматное!</p>
             </div>
-            <img class="fresh__img" src="images/index/image2.webp" alt="Свежий хлеб" width="598" height="372">
+            <img class="fresh__img" src="images/index/image2.webp" alt="Свежий хлеб" width="598" height="372" loading="lazy">
         </section>
     </div>
 
@@ -262,7 +264,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>
