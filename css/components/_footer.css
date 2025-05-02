@@ -40,6 +40,10 @@
   color: #585252;
 }
 
+.docs{
+  margin-top: 10px;
+}
+
 @media (max-width: 1250px) {
   .footer__logo {
     height: 183px;
