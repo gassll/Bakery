@@ -9,6 +9,7 @@
     max-width: 700px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .assortment__right {
@@ -29,16 +30,10 @@
 
 .assortment__subtitle {
     font-size: 20px;
-    margin-bottom: 25px;
 }
 
 .assortment__card-more h2 {
     font-size: 32px;
-    margin-bottom: 27px;
-}
-
-.assortment__card-more p:not(:last-child) {
-    margin-bottom: 25px;
 }
 
 .assortment__btn {
@@ -83,7 +78,6 @@ h2 {
 .assortment__offer-item h3 {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 5px;
 }
 
 .assortment__offer-item p {
@@ -120,6 +114,10 @@ h2 {
 
     .assortment__card-more p:not(:last-child) {
         margin-bottom: 8px;
+    }
+
+    .assortment__left{
+        gap: 10px;
     }
 }
 
@@ -164,6 +162,10 @@ h2 {
     .assortment__card-more h2 {
         font-size: 30px;
         margin-bottom: 20px;
+    }
+
+    .assortment__left{
+        gap: 5px;
     }
 }
 
