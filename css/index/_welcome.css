@@ -7,7 +7,7 @@
 
 .welcome h2 {
     font-size: 32px;
-    max-width: 620px;
+    /* max-width: 620px; */
     font-weight: 400;
     margin-bottom: 40px;
 }
@@ -21,7 +21,7 @@
 }
 
 .welcome__description {
-    max-width: 660px;
+    /* max-width: 660px; */
     margin-bottom: 64px;
 }
 
@@ -30,43 +30,50 @@
     color: #000000;
 }
 
-.link__more{
+.link__more {
     border-bottom: 0.5px solid #000000;
 }
 
 @media(max-width: 1238px) {
-    .welcome__description{
+    .welcome__description {
         margin-bottom: 30px;
     }
 }
 
-@media(max-width: 1132px){
-    .welcome__description{
-        margin-bottom: 40px;
+@media(max-width: 1132px) {
+    .welcome__description {
         font-size: 14px;
     }
 
-    .welcome h2{
+    .welcome h2 {
         margin-bottom: 25px;
     }
 }
 
-@media(max-width: 1010px){
-    .welcome__description{
+@media(max-width: 1010px) {
+    .welcome__description {
         font-size: 13px;
-        margin-bottom: 35px;
     }
-    .welcome h2{
-        font-size: 30px;
+
+    .welcome h2 {
+        font-size: 24px;
         margin-bottom: 20px;
     }
 }
 
-@media(max-width: 957px){
+@media(max-width: 957px) {
     .welcome {
         grid-template-columns: 1fr;
         gap: 40px;
         text-align: center;
         margin-bottom: 80px;
+    }
+
+    .welcome img {
+        width: auto;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 }

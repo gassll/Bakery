@@ -8,6 +8,13 @@ body {
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+html,
+body {
+    height: 100%;
 }
 
 .container {
@@ -16,11 +23,6 @@ body {
     padding-right: 50px;
     margin: 0 auto;
 }
-
-/* img {
-    object-fit: contain;
-} */
-
 
 @media (max-width: 600px) {
     .container {

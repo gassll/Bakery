@@ -52,6 +52,7 @@
     height: 40px;
     margin: 0;
     text-align: center;
+    transition: background 0.3s ease;
 }
 
 .assortment__price {
@@ -102,6 +103,10 @@ h2 {
     grid-template-columns: repeat(2, 1fr);
     display: grid;
     grid-gap: 100px;
+}
+
+.assortment__btn:hover {
+    background-color: #6b4020;
 }
 
 @media (max-width: 1377px) {
