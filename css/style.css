@@ -11,17 +11,5 @@
 @import 'assortment/_assortment__pastry-more.css';
 @import '_buy.css';
 @import '_stocks.css';
-
-@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap";
-
-
-/* manrope-regular - latin */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/manrope-v15-latin-regular.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+@import 'vendor/_fonts.css';
+@import 'vendor/_vars.css';
