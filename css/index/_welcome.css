@@ -7,7 +7,6 @@
 
 .welcome h2 {
     font-size: 32px;
-    /* max-width: 620px; */
     font-weight: 400;
     margin-bottom: 40px;
 }
@@ -21,7 +20,6 @@
 }
 
 .welcome__description {
-    /* max-width: 660px; */
     margin-bottom: 64px;
 }
 

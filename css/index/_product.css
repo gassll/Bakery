@@ -117,7 +117,6 @@
     object-fit: cover;
 }
 
-
 @media (max-width: 1333px) {
     .product {
         width: 310px;
@@ -131,7 +130,6 @@
         font-size: 13px;
     }
 }
-
 
 @media (max-width: 1198px) {
     .product {
