@@ -21,6 +21,7 @@
 
 .welcome__description {
     margin-bottom: 64px;
+    text-align: justify;
 }
 
 .link {

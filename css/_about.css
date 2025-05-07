@@ -22,6 +22,7 @@
     max-width: 720px;
     align-items: center;
     display: flex;
+    text-align: justify;
 }
 
 .about__paragraph {
@@ -49,7 +50,6 @@
     .about__description {
         max-width: 650px;
     }
-
 }
 
 @media (max-width: 1055px) {
